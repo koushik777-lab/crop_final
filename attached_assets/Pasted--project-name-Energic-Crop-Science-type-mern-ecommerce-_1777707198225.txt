@@ -1,0 +1,167 @@
+{
+  "project_name": "Energic Crop Science",
+  "type": "mern_ecommerce_website",
+  "business_type": "B2B_agriculture_products",
+  "style": "premium_modern_clean",
+  "theme": {
+    "mode": "light",
+    "colors": {
+      "primary": "#16A34A",
+      "secondary": "#14532D",
+      "accent": "#22C55E",
+      "background": "#F0FDF4",
+      "text_dark": "#1F2937",
+      "earth_brown": "#78350F"
+    },
+    "font": {
+      "heading": "Poppins",
+      "body": "Inter"
+    }
+  },
+
+  "branding": {
+    "tone": "trustworthy_professional_agriculture",
+    "keywords": ["Crop Protection", "Organic Growth", "Farming Solutions", "Wholesale Supply"]
+  },
+
+  "hero_section": {
+    "layout": "left_text_right_svg",
+    "headline": "Advanced Crop Protection & Growth Solutions",
+    "subheadline": "High-quality fertilizers, pesticides, and organic solutions designed to maximize crop yield and ensure plant health.",
+    "cta_buttons": [
+      {
+        "text": "Explore Products",
+        "action": "/shop",
+        "style": "primary"
+      },
+      {
+        "text": "Become Distributor",
+        "action": "/contact",
+        "style": "outline"
+      }
+    ],
+    "trust_badges": [
+      "Organic Options",
+      "Tested Formulations",
+      "Wholesale Distribution"
+    ],
+    "hero_svg": {
+      "type": "custom_svg",
+      "description": "Modern agriculture illustration showing a green plant inside a protective shield with subtle spray droplets indicating pesticide protection, minimal flat design, gradient green tones, clean vector style",
+      "style": "flat_modern_gradient",
+      "colors": ["#16A34A", "#22C55E", "#DCFCE7"]
+    }
+  },
+
+  "pages": [
+    {
+      "name": "Home",
+      "sections": [
+        "Hero",
+        "Product Categories",
+        "Featured Products",
+        "Why Choose Us",
+        "Crop Solution Finder",
+        "Testimonials",
+        "Distributor CTA"
+      ]
+    },
+    {
+      "name": "Shop",
+      "filters": [
+        "Fertilizers",
+        "Pesticides",
+        "Herbicides",
+        "Growth Regulators",
+        "Organic Products"
+      ]
+    },
+    {
+      "name": "Product Details",
+      "components": [
+        "Product Images",
+        "Description",
+        "Benefits",
+        "Usage Guide",
+        "Safety Instructions",
+        "Request Quote Button"
+      ]
+    },
+    {
+      "name": "About",
+      "content": "Energic Crop Science is a Kolkata-based manufacturer and distributor providing advanced agricultural solutions including fertilizers, pesticides, herbicides, and plant growth regulators."
+    },
+    {
+      "name": "Contact",
+      "features": [
+        "Inquiry Form",
+        "WhatsApp Button",
+        "Google Map Location",
+        "Distributor Signup Form"
+      ]
+    }
+  ],
+
+  "features": {
+    "authentication": true,
+    "admin_panel": true,
+    "product_management": true,
+    "category_management": true,
+    "bulk_order_inquiry": true,
+    "quote_request_system": true,
+    "whatsapp_integration": true,
+    "search_and_filter": true,
+    "seo_optimized": true
+  },
+
+  "database": {
+    "type": "MongoDB",
+    "collections": [
+      "users",
+      "products",
+      "categories",
+      "orders",
+      "inquiries"
+    ]
+  },
+
+  "backend": {
+    "framework": "Node.js + Express",
+    "api_type": "REST",
+    "modules": [
+      "auth",
+      "product",
+      "order",
+      "inquiry"
+    ]
+  },
+
+  "frontend": {
+    "framework": "React",
+    "styling": "TailwindCSS",
+    "ui_style": "clean_cards_soft_shadows_glass_effect",
+    "animations": "framer_motion"
+  },
+
+  "special_features": {
+    "crop_solution_finder": {
+      "description": "User selects crop issue and system suggests product",
+      "examples": [
+        {
+          "problem": "Yellow Leaves",
+          "solution": "Nitrogen-rich Fertilizer"
+        },
+        {
+          "problem": "Pest Attack",
+          "solution": "Organic Pesticide"
+        }
+      ]
+    }
+  },
+
+  "footer": {
+    "address": "117B, Near Phoolbagan Kali Mandir, Hem Chandra Naskar Road, Beliaghata, Kolkata - 700010",
+    "social_links": ["Facebook", "Instagram"],
+    "business_type": "Manufacturer & Distributor"
+  }
+}
