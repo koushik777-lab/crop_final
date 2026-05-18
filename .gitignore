@@ -47,4 +47,5 @@ Thumbs.db
 .cache/
 .local/
 .env
+.do
 
