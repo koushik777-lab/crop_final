@@ -1,0 +1,31 @@
+.ribbons-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: transparent;
+}
+
+.pointer-dot {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background-color: #166534;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10000;
+  transition: width 0.2s, height 0.2s, background-color 0.2s;
+  box-shadow: 0 0 10px rgba(22, 101, 52, 0.5);
+}
+
+.pointer-dot.active {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(22, 101, 52, 0.15);
+  border: 2px solid #166534;
+  backdrop-filter: blur(2px);
+}
