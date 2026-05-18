@@ -12,7 +12,7 @@ const values = [
   { title: "Quality First", desc: "Every batch is tested in our laboratory to ensure consistency, purity, and effectiveness before dispatch.", icon: <FlaskConical className="w-7 h-7" /> },
   { title: "Sustainable Agriculture", desc: "We develop products that protect crops while preserving soil health and environmental balance.", icon: <Leaf className="w-7 h-7" /> },
   { title: "Farmer Partnership", desc: "We work directly with farmers to understand real field challenges and develop solutions that work.", icon: <Handshake className="w-7 h-7" /> },
-  { title: "Innovation", desc: "Our R&D team continuously develops new formulations to address emerging agricultural challenges.", icon: <Lightbulb className="w-7 h-7" /> },
+  { title: "Innovation", desc: "R&D team continuously develops new formulations to address emerging agricultural challenges.", icon: <Lightbulb className="w-7 h-7" /> },
 ];
 
 export default function About() {
