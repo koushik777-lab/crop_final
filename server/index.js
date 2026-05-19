@@ -177,7 +177,7 @@ app.post("/api/inquiries", async (req, res) => {
 
     const mailOptions = {
       from: `"Energic Crop Science" <${process.env.EMAIL_USER}>`,
-      to: "koushiksarkar741777@gmail.com",
+      to: "energiccrop@gmail.com",
       subject: `New Inquiry: ${type.toUpperCase()} from ${name}`,
       html: `
         <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: 0 auto; background-color: #f0fdf4; border: 1px solid #dcfce7; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
